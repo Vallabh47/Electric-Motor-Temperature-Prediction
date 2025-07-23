@@ -1,0 +1,11 @@
+# Ignore large model and data files
+*.pkl
+*.csv
+
+# Ignore Jupyter Notebook checkpoints (temporary files)
+.ipynb_checkpoints/
+
+# Ignore Python environment folders (if you create virtual environments)
+venv/
+env/
+__pycache__/
