@@ -1,4 +1,3 @@
-﻿# Electric-Motor-Temperature-Prediction
 Electric Motor Temperature Prediction using Machine Learning
 Project Overview
 This project focuses on building a machine learning model to predict the rotor temperature of a Permanent-Magnet Synchronous Machine (PMSM). Accurate temperature prediction is crucial for optimizing motor performance, ensuring longevity, and preventing overheating in various applications, from robotics to industrial drives.
@@ -11,11 +10,15 @@ The goal is to design a machine learning model with proper feature engineering t
 Project Objectives
 By the end of this project, I aimed to:
 
-1. Understand and classify a regression problem.
-2. Apply various data preprocessing and cleaning techniques.
-3. Implement and compare different machine learning regression algorithms.
-4. Evaluate model performance using appropriate metrics (MAE, MSE, RMSE, R2).
-5. Build a basic web application using the Flask framework to serve the ML model.
+Understand and classify a regression problem.
+
+Apply various data preprocessing and cleaning techniques.
+
+Implement and compare different machine learning regression algorithms.
+
+Evaluate model performance using appropriate metrics (MAE, MSE, RMSE, R2).
+
+Build a basic web application using the Flask framework to serve the ML model.
 
 Dataset
 The dataset used in this project is the Electric Motor Temperature dataset, publicly available on Kaggle. It comprises sensor data collected from a permanent magnet synchronous motor (PMSM) on a test bench.
@@ -113,12 +116,18 @@ To Stop the Web App: Go back to the CMD window where the Flask app is running an
 Model Performance Summary
 After comparing Linear Regression, Decision Tree, Random Forest, and SVM, the Random Forest Regressor demonstrated the best performance for predicting rotor temperature, achieving a high R-squared score and low error metrics.
 
-Technologies Used:
-1. Python
-2. Pandas (for data manipulation and analysis)
-3. NumPy (for numerical operations)
-4. Scikit-learn (for machine learning models and preprocessing)
-5. Matplotlib (for data visualization)
-6. Seaborn (for enhanced data visualization)
-7. Flask (for building the web application)
+Technologies Used
+Python
+
+Pandas (for data manipulation and analysis)
+
+NumPy (for numerical operations)
+
+Scikit-learn (for machine learning models and preprocessing)
+
+Matplotlib (for data visualization)
+
+Seaborn (for enhanced data visualization)
+
+Flask (for building the web application)
 
